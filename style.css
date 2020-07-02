@@ -161,3 +161,80 @@ footer{
 
 .foot-text{
     margin-top: 130px;
+}
+
+@media(max-width:650px){
+    body{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header{
+        
+        min-height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #text-part{
+        margin-top: 0px;
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .singel-width{
+        width: 100%;
+        margin: 0;
+    }
+
+    
+
+    .biography{
+        min-height: 1200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #img-part{
+        order: 2;
+    }
+
+    .survice{
+        margin-top: -200px;
+        min-height: 1680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .survice .single{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .work{
+        min-height:1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .work .heading{
+        margin-top: -150px;
+    }
+    .work img{
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .work .single{
+        width: 100%;
+    }
+    
+}
