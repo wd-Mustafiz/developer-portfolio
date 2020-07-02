@@ -195,14 +195,17 @@ footer{
     
 
     .biography{
-        min-height: 1200px;
+        margin-top: -100px;
         text-align: center;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
-    #img-part{
-        order: 2;
+    .biography img{
+        display: none;
+    }
+    .pro-text{
+        width: 70% !important;
     }
 
     .survice{
